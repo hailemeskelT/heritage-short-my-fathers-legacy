@@ -1,36 +1,35 @@
-# Tenx Submission Checklist
+# Final submission readiness checklist
 
-## Assignment 1 — B2W0: AI-Content Generation - Codebase and Report
+**Audit date:** 27 November 2026. **Repository audit branch:** submission/revised-report-and-docs.
 
-Submit:
+## Assignment 1 — Codebase and report
+- Public repository: present.
+- Storyboard JSON and schema validator: present.
+- Ten experiment entries: documented, but several historic results lack retained logs/outputs.
+- Ten keyframe PNG files: present; individual model-call records are incomplete.
+- Final report: revised version in this branch.
+- README/architecture: describe the actual source behaviour.
+- Clean-clone one-command AI generation: not demonstrated; main.py run plans and assembles only.
+- Per-stage caching/retries: not integrated/implemented.
+- runs.jsonl: one SSD-1B test record, not every model call.
+- Cost totals: incomplete; one test latency/memory record and narration duration retained.
+- Ethics: family permission scope and service/model version records need confirmation.
 
-1. Public GitHub repository URL. It must contain the code, storyboard, logs, outputs needed to inspect the pipeline, and documentation.
-2. One documented command that runs the pipeline end to end.
-3. A separate report in PDF, Word, or accessible link format.
+## Assignment 2 — Film, walkthrough, and post
+- Vertical and horizontal MP4 file objects are present in outputs/final/; streams were not independently decoded in this audit.
+- Narration timing and English SRT are present; WAV is not in Git.
+- Score WAV is not in Git; sidechain compression exists in assembler source, but final mix is not verified.
+- No moving-shot clips are tracked; current assembler concatenates still images.
+- AI disclosure string and titlecard images exist; final MP4 disclosure frame must be checked.
+- Walkthrough template exists; final walkthrough evidence link was not found in the repository.
+- Public-post template exists; final post URL/screenshot was not found in the repository.
 
-The report must cover: what you made and for whom; audience learning; hardest problem and solution; suggested practice that helped; suggested practice that did not; extension work; what you would build next.
-
-**Interview preparation:** Be ready to explain why the pipeline is structured as it is, walk through an experiment, describe a real failure and response, and explain what the audience said and what changed.
-
-## Assignment 2 — B2W0: AI-Content Generation - Film, Walkthrough and Post (manual grade)
-
-Submit:
-
-1. Main submission: vertical (9:16) MP4 link.
-2. Attachment: horizontal (16:9) MP4 link.
-3. Attachment: walkthrough video (maximum five minutes).
-4. Attachment: public post URL or screenshot if you chose not to publish.
-
-Ensure all links work without sign-in or are explicitly shared with the reviewers.
-
-## Final checks
-
-- [ ] Both assignment forms submitted separately.
-- [ ] Main film link is the vertical video.
-- [ ] Horizontal video attached.
-- [ ] Walkthrough duration checked.
-- [ ] Public post or screenshot attached.
-- [ ] Repository visibility checked.
-- [ ] Report file opens correctly.
-- [ ] All media links open in a private/incognito browser window.
-- [ ] Submission completed before 26 November 2026, 23:59 EAT.
+## Critical checks
+- [ ] Resolve 68-second storyboard vs 54.996-second narration/SRT timeline.
+- [ ] FFprobe both MP4s for dimensions, frame rate, runtime, and audio streams.
+- [ ] Watch both versions; verify captions, audio mix/ducking, and visible AI end card.
+- [ ] Add anonymised findings from both audience tests.
+- [ ] Retain family permission privately and record scope in ETHICS.md.
+- [ ] Add walkthrough (≤5 minutes), public post URL/screenshot, and platform AI label proof.
+- [ ] Test all reviewer links in a private browser.
+- [ ] Confirm portal accepts late submission: the original checklist lists 26 November 2026, 23:59 EAT; this audit is 27 November 2026.

@@ -1,42 +1,21 @@
-# Architecture
+# Architecture and implementation status
 
-## 1. Design
+## Contract
+storyboard.json is the central production specification. It contains project metadata, audience/intent, ten shots, Amharic narration, English subtitles, visual/motion prompts, durations, seeds/status fields, and the AI disclosure text. schema/storyboard.schema.json uses JSON Schema Draft 2020-12. pipeline/validate.py checks the schema and verifies a 60–90-second total matching the target duration.
 
-`storyboard.json` is the central production contract. It holds the
-project information and ten shot descriptions, durations, narration,
-English subtitles, image prompts and motion prompts.
+## Implemented stages
+1. Validation: main.py validate calls pipeline/validate.py.
+2. Planning: main.py plan calls pipeline/plan.py and writes outputs/pipeline_plan.json.
+3. Assembly: main.py assemble calls pipeline/assemble.py.
 
-## 2. Production stages
+## Actual CLI behaviour
+main.py run validates, creates a plan, and calls the still-image assembler only. It does not invoke image, motion, narration, or music generation. The assembler requires ten PNG keyframes, outputs/narration/narration.wav, outputs/music/score.wav, and subtitles/narration.en.srt. The WAV source files are absent from the audited Git tree.
 
-1. Story and storyboard — source account, audience, intent and shots.
-2. Validation and planning — Python validation and production plan.
-3. Keyframes — SSD-1B image generation through Diffusers on a Colab T4.
-4. Narration — Amharic speech generation through Edge TTS.
-5. Music — original programmatically synthesized instrumental score.
-6. Assembly — FFmpeg applies slow camera movement, subtitles, audio mix
-   and the AI disclosure end card.
-7. Delivery — 9:16 and 16:9 MP4 exports.
+## Assembly
+The assembler uses FFmpeg to concatenate still images, burn in English subtitles, sidechain-compress the music using narration as the key signal, mix/normalize audio, and export 1080x1920 vertical and 1920x1080 horizontal H.264/AAC files at 24 fps. It explicitly describes the result as a Ken-Burns-free still-image sequence. No moving-shot clips or generation stage are present in outputs/shots/.
 
-## 3. Data contracts
+## Cache and logging
+pipeline/cache.py provides file hashes, stable JSON hashes, and a stage-cache-key helper. The CLI does not integrate these helpers into stage execution, so automatic per-shot cache reuse/invalidation is not demonstrated. pipeline/logger.py can write structured event records, but runs.jsonl currently has one SSD-1B keyframe-test row and does not represent all production model calls.
 
-The storyboard JSON is the input shared across stages. The schema is
-stored in `schema/storyboard.schema.json`.
-
-## 4. Caching
-
-Document the actual cache key and invalidation behavior implemented
-in `pipeline/cache.py` here. Do not claim per-shot cache invalidation
-unless a prompt change was tested and only the changed shot regenerated.
-
-## 5. Failure handling
-
-Observed failures and their resolutions are in `FAILURES.md`.
-Model calls and resource measurements belong in `runs.jsonl` and
-`COSTS.md`.
-
-## 6. Reproducibility limitation
-
-The notebook executed image generation, narration, music and assembly.
-The starter CLI's validation and planning commands were tested.
-A clean-clone, single-command end-to-end pipeline is a separate
-requirement and must not be claimed unless it has actually been tested.
+## Reproducibility conclusion
+Validation, planning, hashing helpers, logging utilities, and still-image assembly exist. The repository does not yet demonstrate a clean-clone, one-command end-to-end AI production pipeline. Add callable generation adapters, pinned model/dependency versions, source-audio provisioning, stage cache integration, bounded retries, and complete run logging before claiming full reproducibility.

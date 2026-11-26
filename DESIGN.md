@@ -1,66 +1,24 @@
-# Design and audience
+# Design, audience, and user testing
 
-## Audience
-
-The primary audience is the filmmaker's family. The secondary audience
-is Ethiopian young people and viewers interested in family heritage
-and community values.
-
-## Intent
-
-Help viewers appreciate diligence, family love, ethical values,
-community respect and reconciliation, and encourage preservation of
-family stories across generations.
+## Audience and intent
+Primary audience: the filmmaker's family. Secondary audience: Ethiopian young people and viewers interested in family heritage and community values. The desired response is appreciation of family memory, diligence, patience, respect, and reconciliation across generations.
 
 ## Accuracy boundaries
-
-The story is based on a family account rooted in North Shewa.
-No village, exact date, crop, individual dispute or historical event
-was supplied. Visuals are symbolic AI reconstructions, not photographs.
+The family account is rooted in North Shewa. It describes a diligent farmer, a loving parent, and participation in customary mediation (shimgilna) and reconciliation. No precise village, date, crop, dispute, quotation, or historical event was supplied. AI visuals are illustrative reconstructions, not historical photographs. The father should remain fictional and non-identifiable unless likeness permission is documented.
 
 ## Shot rationale
+01: establish that some stories are not written in books.
+02: show stories passing between generations.
+03: establish North Shewa as the family landscape.
+04: introduce the father.
+05: show diligence through farming.
+06: communicate family love and values.
+07: show a positive community role.
+08: represent customary mediation and reconciliation without inventing a dispute.
+09: symbolize patience and perseverance.
+10: connect the father's lessons to future generations.
 
-| Shot | Purpose |
-|---|---|
-| 01 | Establish that family stories can exist beyond written books. |
-| 02 | Represent how stories pass between generations. |
-| 03 | Establish North Shewa as the family's landscape. |
-| 04 | Introduce the father as the central subject. |
-| 05 | Show diligence through agricultural work. |
-| 06 | Communicate love and good values in family life. |
-| 07 | Show the father's positive community role. |
-| 08 | Represent customary mediation and reconciliation. |
-| 09 | Symbolize patience and perseverance. |
-| 10 | Connect the father's lessons to future generations. |
+## Audience testing
+The project owner reports that both the radio-cut test and near-final film test were completed. The repository does not contain the dates, participant counts, anonymized notes, or exact changes resulting from either test. No quotations or specific findings are invented in this file.
 
-## User test 1 — radio cut
-
-A radio cut means narration plus placeholder music on a black screen.
-
-Date: [ENTER ACTUAL DATE]  
-Participants: [AT LEAST THREE PEOPLE FROM THE INTENDED AUDIENCE]
-
-| Anonymous participant | What they said | What was unclear |
-|---|---|---|
-| P1 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-| P2 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-| P3 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-
-Changes made because of this test:
-[DESCRIBE ACTUAL STORYBOARD OR NARRATION CHANGES]
-
-## User test 2 — near-final film
-
-Date: [ENTER ACTUAL DATE]  
-Participants: [AT LEAST THREE PEOPLE FROM THE INTENDED AUDIENCE]
-
-| Anonymous participant | What they said | What was unclear |
-|---|---|---|
-| P1 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-| P2 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-| P3 | [ACTUAL FEEDBACK] | [ACTUAL OBSERVATION] |
-
-Changes made because of this test:
-[DESCRIBE ACTUAL EDITING OR SUBTITLE CHANGES]
-
-Do not invent participants or feedback. Record what people actually said.
+Before final assessment, add the actual date, at least three anonymous participant summaries per test, what participants appreciated or found unclear, and the concrete narration/storyboard/edit changes made. Keep names and contact details private.

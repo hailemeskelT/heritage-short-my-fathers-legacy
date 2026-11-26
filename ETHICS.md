@@ -1,47 +1,22 @@
-# Ethics, consent, licences and AI disclosure
+# Ethics, consent, licences, and AI disclosure
 
 ## Story source
-The film is based on a family account supplied by the filmmaker.
-It describes a father's diligence in agriculture, family love and
-values, and customary community mediation and reconciliation in
-North Shewa.
+The film is based on a family account supplied by the filmmaker about a father remembered for agricultural diligence, family love and values, and customary community mediation (shimgilna) and reconciliation in North Shewa.
 
-Permission to tell and publish the family story:
-[CONFIRM THE FAMILY'S PERMISSION AND SCOPE BEFORE PUBLIC RELEASE.]
+The public repository does not contain a family permission record or the scope of permission for public release. Retain consent privately and record whether it covers telling the story, public distribution, and identifying details. Do not publish private signatures or contact information.
 
-## Human likeness and voice
-The father is represented by a fictional, non-identifiable AI-generated
-figure. No photograph or identifiable likeness of the real father was
-used in the described image-generation process.
-
-Narration uses a synthetic Amharic text-to-speech voice. It is not
-presented as the father's real voice.
-
-If any actual identifiable person or real voice is added, record that
-person's informed consent here before using or publishing it.
+## Likeness and voice
+Project notes specify a fictional, non-identifiable AI-generated father figure and synthetic narration using Edge TTS voice am-ET-MekdesNeural. The voice is not presented as the father's real voice. Do not use identifiable likeness or clone/imitate a real person's voice without informed consent.
 
 ## Accuracy
-No specific village, date, crop, dispute, historical incident or
-biographical event was supplied. The visuals are illustrative
-reconstructions, not historical photographs.
+No exact village, date, crop, dispute, quotation, or historical event was supplied. Visuals are illustrative reconstructions, not historical photographs.
 
-## Model and software licences
-- Segmind SSD-1B: model card lists Apache 2.0. Verify the model card and
-  licence at the version used:
-  https://huggingface.co/segmind/SSD-1B
-- Hugging Face Diffusers: record the installed package version and
-  licence from its official repository.
-- Edge TTS: record package version and verify the online speech
-  service's applicable terms. Do not claim ownership of the underlying
-  voice.
+## Licences and service terms
+- Segmind SSD-1B: project notes identify Apache 2.0; record the exact model revision and retain the applicable model-card licence.
+- Hugging Face Diffusers: package version/licence not pinned in requirements.txt.
+- Edge TTS: verify the applicable online service terms and publication permissions; do not claim ownership of the voice.
 - FFmpeg: record build configuration and applicable LGPL/GPL components.
-- Python music: original programmatically synthesized score.
+- Programmatic music: retain generation code and confirm no borrowed melody/sample is included.
 
 ## AI disclosure
-The end card states "MADE WITH AI".
-Enable the platform's AI-generated/synthetic-content disclosure when
-publishing. Preserve available provenance metadata and watermarks.
-
-## Privacy
-No private identifying family details should be submitted to public
-model endpoints without permission and a review of their data terms.
+storyboard.json contains “This film was made with AI.” The project notes state that the end card reads “MADE WITH AI,” but final MP4 frames were not inspected in this source audit. Verify both aspect ratios and enable the platform AI/synthetic-content label; retain a screenshot if required.

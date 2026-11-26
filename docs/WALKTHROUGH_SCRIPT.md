@@ -1,36 +1,19 @@
-# Walkthrough Video Script (maximum 5 minutes)
+# Walkthrough script — evidence-aligned version
 
-Target duration: approximately 4 minutes.
+Maximum duration: five minutes. The current tracked CLI does not perform AI generation or selective per-shot regeneration. Do not demonstrate main.py run as though it does.
 
-## 0:00–0:30 — Introduce the project
+## Suggested four-minute structure
+1. **0:00–0:35 — Film and purpose.** Show the two exports and explain the family story, audience, and AI-assisted approach.
+2. **0:35–1:25 — Storyboard contract.** Open storyboard.json and the schema. Run python main.py validate and show the actual ten-shot, 68-second validation output.
+3. **1:25–2:10 — Code.** Show validate.py, plan.py, assemble.py, cache.py, and logger.py. Explain accurately that run validates, plans, and assembles stills; cache helpers are not integrated; generation stages are external/not wired.
+4. **2:10–3:10 — Experiment.** Show the actual Shot 04 SSD-1B test record: 1024x1024, 30 steps, guidance 9.0, seed 404, about 27 seconds, 3.32 GB peak memory. Explain the CLIP prompt truncation issue.
+5. **3:10–4:00 — Outputs and lesson.** Show ten keyframes and both MP4s. Explain still-image assembly and the audio-timing verification still needed.
 
-Show the finished Heritage Short and state its audience, story purpose, and language.
-
-## 0:30–1:30 — Explain the architecture
-
-Show `storyboard.json`, schema validation, and the stage sequence: keyframes, moving shots, music, narration, assembly. Explain caching, retries, and where Colab fits.
-
-## 1:30–2:15 — Show evidence
-
-Show a real `runs.jsonl` entry and one experiment with its hypothesis, change, and measured result. Mention one failure and how you handled it.
-
-## 2:15–3:15 — Demonstrate selective regeneration
-
-1. Open `storyboard.json`.
-2. Change one shot's visual prompt or narration line.
-3. Run the pipeline.
-4. Show that only the affected stage output is regenerated and unaffected outputs are reused.
-5. Show the new log entry.
-
-You do not need to rerun Wan 2.2 live; the brief accepts showing the single new model call in the logs and allows pausing during generation.
-
-## 3:15–4:00 — Close
-
-Show the two exported aspect ratios, the AI disclosure end card, and summarize one lesson learned.
+## Selective regeneration demonstration
+If selective regeneration was completed in a separate Colab notebook, show the actual notebook, changed prompt, regenerated shot, and matching model-call log. The tracked CLI does not currently implement selective per-shot regeneration. Do not stage or fabricate the evidence.
 
 ## Recording checklist
-
-- [ ] Screen text is readable.
-- [ ] No API keys, access tokens, private family details, or unapproved faces/voices are shown.
-- [ ] Actual outputs and logs are used; do not stage fake evidence.
-- [ ] Total duration is no more than five minutes.
+- Runtime no more than five minutes.
+- Show actual outputs and logs only.
+- Hide API keys, tokens, private family information, and unapproved likeness/voice.
+- State one technical limitation accurately.
