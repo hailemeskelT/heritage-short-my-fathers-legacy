@@ -1,0 +1,37 @@
+# ETHICS.md — Consent, Labelling, and Licences
+
+## Consent register
+
+The filmmaker's story is about his father. The conversation does not establish that recorded informed consent has been obtained for use of the father's identifiable face, likeness, or voice. Therefore, do not generate or publish an identifiable likeness or cloned voice unless consent is obtained and recorded.
+
+| Person/identifier | Use (face / likeness / voice) | Consent status | Date | Evidence location | Scope confirmed |
+|---|---|---|---|---|---|
+| Filmmaker's father | No identifiable likeness or voice planned; use a generic, non-identifiable illustrative character only unless permission is later documented. | Not established for identifiable use; do not use identifiable face/voice. | [IF LATER OBTAINED] | [SECURE PRIVATE RECORD, IF APPLICABLE] | [CONFIRM SCOPE BEFORE IDENTIFIABLE USE] |
+
+If the plan changes to include identifiable photographs, footage, likeness, or voice, obtain recorded, informed consent first and update this table. The narrator must not imitate the father's voice.
+
+## Story accuracy and privacy
+- Story source: Family account supplied by the filmmaker; story rooted in North Shewa; father described as a hardworking farmer, loving parent, role model, and respected participant in customary mediation and reconciliation.
+- No specific date, village, crop, named dispute, direct quotation, or detailed historical incident was supplied. Do not invent these.
+- Storyteller review of this summary: [PENDING / RECORD ACTUAL CONFIRMATION]
+- Sensitive family details excluded or protected: [RECORD ACTUAL HANDLING]
+- Recreated/illustrative scenes clearly identified in production notes: YES — AI scenes are illustrative reconstructions, not archival footage.
+
+## Model and output licences
+
+| Asset/stage | Provider/model/version | Licence/terms checked | Output-use terms | Source URL/date checked |
+|---|---|---|---|---|
+| Story/script | Filmmaker-provided family account | Not applicable | Use only as authorized by storyteller | [RECORD] |
+| TTS | [ACTUAL MODEL] | [CHECK] | [CHECK] | [RECORD] |
+| Image | [ACTUAL MODEL] | [CHECK] | [CHECK] | [RECORD] |
+| Video | [ACTUAL MODEL OR FFmpeg] | [CHECK] | [CHECK] | [RECORD] |
+| Music | [ACTUAL MODEL] | [CHECK] | [CHECK] | [RECORD] |
+
+## AI labelling and provenance
+- End-card text: `Made with AI`.
+- Platform disclosure enabled: [YES / NO / NOT POSTED]
+- Watermarks/provenance metadata preserved where available: [ACTUAL STATUS]
+- Public post or screenshot reference: [ADD AFTER RELEASE]
+
+## Data handling
+Do not upload private family photographs, personal records, or identifying details to hosted providers without appropriate permission and a review of provider data terms. Keep API keys outside the repository.

@@ -1,0 +1,181 @@
+{
+  "project": {
+    "title_am": "የአባቴ ውርስ",
+    "title_en": "My Father's Legacy",
+    "language": "am",
+    "subtitle_language": "en",
+    "target_duration_seconds": 68,
+    "frame_rate": 24,
+    "story_source": "Family account supplied by the filmmaker: the family story is rooted in North Shewa; the father was a diligent farmer, raised the family with love and good values, served as a respected community role model, and participated in customary mediation and reconciliation. No specific dates, village, dispute, or crop were supplied.",
+    "audience": "The filmmaker's family, Ethiopian young people, and viewers interested in family heritage and community values.",
+    "intent": "Help viewers appreciate the father's diligence, love for his family, respect for others, and contribution to community reconciliation; encourage the preservation of family stories across generations.",
+    "ai_disclosure": "This film was made with AI."
+  },
+  "style_block": "Respectful, warm, documentary-inspired cinematic reconstruction set broadly in North Shewa, Ethiopia. Keep the generic illustrative father character, clothing, light, and colour palette consistent. Do not imitate the real father's identifiable face or voice without recorded informed consent. Do not invent a specific village, date, crop, dispute, ceremony, quotation, or historical incident. Clearly treat generated scenes as illustrative reconstructions, not archival footage. Natural light, restrained camera movement, realistic environments, no generated text or logos.",
+  "shots": [
+    {
+      "id": "shot_01",
+      "duration_seconds": 6,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\nA closed, unmarked family book on a wooden table beside an open window overlooking the beautiful North Shewa countryside. A poetic image representing family stories preserved in memory.",
+      "motion_prompt": "Slow cinematic push toward the book and distant landscape.",
+      "narration_am": "አንዳንድ ታሪኮች በመጻሕፍት ውስጥ አይጻፉም።",
+      "subtitle_en": "Some stories are never written in books.",
+      "shot_reason": "Establish the North Shewa setting identified in the family account without inventing a precise location.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42001,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_02",
+      "duration_seconds": 6,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\nA warm family gathering inside a modest rural Ethiopian home. Different generations sit together and listen to one another. Natural, intimate composition without inventing family size.",
+      "motion_prompt": "Slow camera movement across the family gathering.",
+      "narration_am": "በቤታችን ውስጥ ይኖራሉ፤ ከትውልድ ወደ ትውልድም ይተላለፋሉ።",
+      "subtitle_en": "They live in our homes and pass from one generation to the next.",
+      "shot_reason": "Introduce farming as an important part of the father's life.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42002,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_03",
+      "duration_seconds": 7,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\nWide establishing view of North Shewa highlands, rolling hills, cultivated farmland, distant mountains and soft morning light. No identifiable village or landmark.",
+      "motion_prompt": "Very slow panoramic movement across the countryside.",
+      "narration_am": "የቤተሰባችን ታሪክ ከታሪካዊቷና ውብ የሰሜን ሸዋ ምድር ጋር የተያያዘ ነው።",
+      "subtitle_en": "Our family story is rooted in the historic, beautiful land of North Shewa.",
+      "shot_reason": "Introduce the father as the central subject while avoiding an unconsented likeness.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42003,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_04",
+      "duration_seconds": 7,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nStanding quietly beside cultivated farmland, looking toward the North Shewa landscape. Reflective and dignified composition.",
+      "motion_prompt": "Gentle camera push toward the father figure from behind.",
+      "narration_am": "ዛሬ የማካፍላችሁ ታሪክ የአባቴ ታሪክ ነው።",
+      "subtitle_en": "Today, I share my father's story.",
+      "shot_reason": "Connect the father's identity with farming and diligence.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42004,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_05",
+      "duration_seconds": 8,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nWorking carefully on cultivated farmland. Show ordinary agricultural labour and detailed working hands. Do not invent a crop, tool or specific farming event.",
+      "motion_prompt": "Slow lateral camera movement following the agricultural work.",
+      "narration_am": "በግብርና ሥራው ታታሪነትን በተግባር ያሳየ ሲሆን፣ ለአካባቢው ሰዎችም አርአያ ነበር።",
+      "subtitle_en": "Through farming, he demonstrated hard work and became a role model to people around him.",
+      "shot_reason": "Represent the father's effort to raise the family with love and good values.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42005,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_06",
+      "duration_seconds": 8,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nSharing a quiet affectionate moment with family members inside a modest home. Convey care, love, patience and good values.",
+      "motion_prompt": "Gentle over-the-shoulder camera movement.",
+      "narration_am": "ቤተሰባችንን በፍቅርና በሥነ ምግባር ለማሳደግ ሌት ተቀን ደክሟል።",
+      "subtitle_en": "He worked day and night to raise our family with love and good values.",
+      "shot_reason": "Visualize family affection and moral guidance without inventing a particular event.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42006,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_07",
+      "duration_seconds": 8,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nIn a calm community gathering with adult neighbours. Show mutual respect, trust and positive community relationships.",
+      "motion_prompt": "Slow lateral movement across the group.",
+      "narration_am": "በግብርናም ሆነ በማኅበራዊ ኑሮው ለአካባቢው ሰዎች ትልቅ አርአያ ነበር።",
+      "subtitle_en": "In both farming and community life, he was an example to those around him.",
+      "shot_reason": "Show the father's respected place in community and social life.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42007,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_08",
+      "duration_seconds": 7,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nParticipating in a peaceful customary community mediation discussion. Adult community members sit together and listen respectfully. Emphasize reconciliation, not confrontation.",
+      "motion_prompt": "Slow push-in toward the listening group.",
+      "narration_am": "በአካባቢው ባህል መሠረት በሽምግልናና በእርቅ ሥራ በመሳተፍ ማኅበረሰቡን ያገለግል ነበር።",
+      "subtitle_en": "Through customary mediation and reconciliation, he served his community.",
+      "shot_reason": "Represent the father's role in shimgilna (traditional mediation) and reconciliation, as described by the family.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42008,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_09",
+      "duration_seconds": 7,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nContinuing careful agricultural work. Close-up of hands working the soil with cultivated farmland in the background, symbolizing patience and perseverance.",
+      "motion_prompt": "Slow close-up movement across the hands and field.",
+      "narration_am": "ያን ጊዜ ቀላል አልነበረም። ግን ፈተናን በትዕግሥት መቋቋምንና በታታሪነት መቀጠልን አስተማረን።",
+      "subtitle_en": "Those times were not easy. He taught us to face hardship with patience and perseverance.",
+      "shot_reason": "Express the lesson of facing difficulties patiently and continuing to work diligently.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42009,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_10",
+      "duration_seconds": 4,
+      "visual_prompt": "\nPhotorealistic cinematic documentary reconstruction of rural North\nShewa, Ethiopia. Authentic-looking Ethiopian highland landscape,\nnatural earthy colours, realistic human proportions, warm natural\nlighting, thoughtful cinematography and realistic environmental\ndetails. Square composition with central subjects suitable for\nvertical and horizontal cropping. No text, logos or watermarks.\n\nThe same fictional, non-identifiable adult Ethiopian father figure.\nMaintain consistent general clothing and appearance across scenes.\nShow him mainly from behind or with indistinct facial features.\nNever imitate an actual person's likeness.\nStanding with a younger generation, both viewed from behind, looking toward the North Shewa horizon. Warm late-afternoon light and clear negative space for the closing title.",
+      "motion_prompt": "Slow pull-back followed by a gentle fade.",
+      "narration_am": "ዓመታት ያልፋሉ፣ ትውልዶችም ይቀያየራሉ። ከአባቴ የተማርነው ፍቅር፣ ትጋትና መከባበር ከእኛ ጋር ይኖራል። ታሪካችን ማንነታችን ነው።",
+      "subtitle_en": "Years pass and generations change. The love, diligence and respect we learned from my father live on. Our story is our identity.",
+      "shot_reason": "Conclude with the idea that the father's values continue across generations and include the required AI disclosure.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42010,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    }
+  ],
+  "music": {
+    "type": "original_instrumental_score",
+    "mood": "Warm, reflective, dignified, hopeful; supportive of a family heritage documentary and never overpowering the Amharic narration.",
+    "instruments": "Proposed gentle Ethiopian traditional-instrument-inspired plucked strings and bowed textures with soft hand percussion and warm ambient strings; verify cultural fit with a knowledgeable listener.",
+    "tempo_bpm": 78,
+    "duration_seconds": 68,
+    "cues": [
+      {
+        "start_seconds": 0,
+        "end_seconds": 68,
+        "purpose": "Begin gently, build subtly during the father and community passages, and resolve warmly under the closing line; duck under narration."
+      }
+    ]
+  }
+}

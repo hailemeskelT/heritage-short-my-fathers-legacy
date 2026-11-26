@@ -1,0 +1,181 @@
+{
+  "project": {
+    "title_am": "የአባቴ ውርስ",
+    "title_en": "My Father's Legacy",
+    "language": "am",
+    "subtitle_language": "en",
+    "target_duration_seconds": 68,
+    "frame_rate": 24,
+    "story_source": "Family account supplied by the filmmaker: the family story is rooted in North Shewa; the father was a diligent farmer, raised the family with love and good values, served as a respected community role model, and participated in customary mediation and reconciliation. No specific dates, village, dispute, or crop were supplied.",
+    "audience": "The filmmaker's family, Ethiopian young people, and viewers interested in family heritage and community values.",
+    "intent": "Help viewers appreciate the father's diligence, love for his family, respect for others, and contribution to community reconciliation; encourage the preservation of family stories across generations.",
+    "ai_disclosure": "This film was made with AI."
+  },
+  "style_block": "Respectful, warm, documentary-inspired cinematic reconstruction set broadly in North Shewa, Ethiopia. Keep the generic illustrative father character, clothing, light, and colour palette consistent. Do not imitate the real father's identifiable face or voice without recorded informed consent. Do not invent a specific village, date, crop, dispute, ceremony, quotation, or historical incident. Clearly treat generated scenes as illustrative reconstructions, not archival footage. Natural light, restrained camera movement, realistic environments, no generated text or logos.",
+  "shots": [
+    {
+      "id": "shot_01",
+      "duration_seconds": 6,
+      "visual_prompt": "Wide cinematic establishing view of the North Shewa highland landscape in Ethiopia, rolling hills and cultivated farmland under soft early-morning light. Do not depict a specific identifiable village, landmark, or historical event. Respectful documentary-inspired visual reconstruction, natural colours, realistic environment, no text, no logos.",
+      "motion_prompt": "Very slow panoramic movement across the landscape; gentle atmospheric movement only; stable horizon.",
+      "narration_am": "አንዳንድ ታሪኮች በመጻሕፍት ውስጥ አይጻፉም።",
+      "subtitle_en": "Some stories are never written in books.",
+      "shot_reason": "Establish the North Shewa setting identified in the family account without inventing a precise location.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42001,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_02",
+      "duration_seconds": 6,
+      "visual_prompt": "Poetic close-up of soil and a farmer's hands gently preparing the earth in a North Shewa agricultural setting. Keep crops and tools generic because the family account does not specify them. Warm natural light, tactile detail, respectful illustrative reconstruction, no text.",
+      "motion_prompt": "Slow push-in toward the hands and soil; one simple, natural movement.",
+      "narration_am": "በቤታችን ውስጥ ይኖራሉ፤ ከትውልድ ወደ ትውልድም ይተላለፋሉ።",
+      "subtitle_en": "They live in our homes and pass from one generation to the next.",
+      "shot_reason": "Introduce farming as an important part of the father's life.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42002,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_03",
+      "duration_seconds": 7,
+      "visual_prompt": "A respectful, non-identifiable illustrative portrait of a generic Ethiopian father figure in a rural North Shewa setting. Do not copy or simulate the real father's face, body, voice, or any identifiable photograph. Keep facial detail understated; natural clothing without invented ceremonial details; warm documentary-inspired light.",
+      "motion_prompt": "Gentle camera push-in; the subject remains calm and mostly still.",
+      "narration_am": "የቤተሰባችን ታሪክ ከታሪካዊቷና ውብ የሰሜን ሸዋ ምድር ጋር የተያያዘ ነው።",
+      "subtitle_en": "Our family story is rooted in the historic, beautiful land of North Shewa.",
+      "shot_reason": "Introduce the father as the central subject while avoiding an unconsented likeness.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42003,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_04",
+      "duration_seconds": 7,
+      "visual_prompt": "The same generic, non-identifiable father figure standing beside cultivated farmland, reflecting a life shaped by agricultural work. Do not show a specific crop, tool, date, or event not supplied by the family. Consistent character styling and natural North Shewa environment.",
+      "motion_prompt": "Subtle tracking movement along the edge of the field; one simple action.",
+      "narration_am": "ዛሬ የማካፍላችሁ ታሪክ የአባቴ ታሪክ ነው።",
+      "subtitle_en": "Today, I share my father's story.",
+      "shot_reason": "Connect the father's identity with farming and diligence.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42004,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_05",
+      "duration_seconds": 8,
+      "visual_prompt": "Illustrative family scene in a modest Ethiopian home: the same generic father figure with family members shown respectfully, preferably from behind or in a wide composition so no real person's identity is implied. Convey care, affection, and the values of raising a family; do not invent family size or specific domestic events.",
+      "motion_prompt": "Slow, gentle camera movement; natural interaction without lip-sync or fabricated dialogue.",
+      "narration_am": "በግብርና ሥራው ታታሪነትን በተግባር ያሳየ ሲሆን፣ ለአካባቢው ሰዎችም አርአያ ነበር።",
+      "subtitle_en": "Through farming, he demonstrated hard work and became a role model to people around him.",
+      "shot_reason": "Represent the father's effort to raise the family with love and good values.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42005,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_06",
+      "duration_seconds": 8,
+      "visual_prompt": "A quiet, respectful scene of the same generic father figure engaged in ordinary family life, with a younger family member listening. Keep people non-identifiable and avoid specific actions or quotations not supplied by the storyteller. Soft, warm natural light.",
+      "motion_prompt": "Gentle over-the-shoulder movement; minimal natural gestures.",
+      "narration_am": "ቤተሰባችንን በፍቅርና በሥነ ምግባር ለማሳደግ ሌት ተቀን ደክሟል።",
+      "subtitle_en": "He worked day and night to raise our family with love and good values.",
+      "shot_reason": "Visualize family affection and moral guidance without inventing a particular event.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42006,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_07",
+      "duration_seconds": 8,
+      "visual_prompt": "The same generic father figure in a respectful community setting in North Shewa, speaking calmly with adult neighbours. Portray him as a positive community role model, without assigning names, status titles, or a specific historical occasion.",
+      "motion_prompt": "Slow lateral camera movement; calm, natural group interaction.",
+      "narration_am": "በግብርናም ሆነ በማኅበራዊ ኑሮው ለአካባቢው ሰዎች ትልቅ አርአያ ነበር።",
+      "subtitle_en": "In both farming and community life, he was an example to those around him.",
+      "shot_reason": "Show the father's respected place in community and social life.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42007,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_08",
+      "duration_seconds": 7,
+      "visual_prompt": "A respectful illustrative depiction of customary community mediation: several adult community members seated in a calm discussion, with the same generic father figure participating as a mediator. Emphasize listening, mutual respect, and reconciliation. Do not depict a specific dispute or claim this is an actual recorded event; avoid invented ritual details or costumes.",
+      "motion_prompt": "Slow push-in on the listening group; restrained hand gestures; no dramatic confrontation.",
+      "narration_am": "በአካባቢው ባህል መሠረት በሽምግልናና በእርቅ ሥራ በመሳተፍ ማኅበረሰቡን ያገለግል ነበር።",
+      "subtitle_en": "Through customary mediation and reconciliation, he served his community.",
+      "shot_reason": "Represent the father's role in shimgilna (traditional mediation) and reconciliation, as described by the family.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42008,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_09",
+      "duration_seconds": 7,
+      "visual_prompt": "Close-up of the generic father's hands continuing careful agricultural work, with the North Shewa landscape in the background. The image symbolizes patience and perseverance; do not imply a particular storm, drought, or specific hardship that was not mentioned.",
+      "motion_prompt": "Slow close-up movement across the hands and field; steady, deliberate action.",
+      "narration_am": "ያን ጊዜ ቀላል አልነበረም። ግን ፈተናን በትዕግሥት መቋቋምንና በታታሪነት መቀጠልን አስተማረን።",
+      "subtitle_en": "Those times were not easy. He taught us to face hardship with patience and perseverance.",
+      "shot_reason": "Express the lesson of facing difficulties patiently and continuing to work diligently.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42009,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    },
+    {
+      "id": "shot_10",
+      "duration_seconds": 4,
+      "visual_prompt": "Poetic closing view of the North Shewa landscape with the generic father figure and a younger generation seen only as non-identifiable silhouettes from behind, looking toward the horizon. Leave clean negative space for a final title and a clear end card reading 'Made with AI'. The scene is symbolic, not a claim of an actual family photograph.",
+      "motion_prompt": "Slow pull-back or gentle fade; hold the final composition long enough for the AI disclosure to be read.",
+      "narration_am": "ዓመታት ያልፋሉ፣ ትውልዶችም ይቀያየራሉ። ከአባቴ የተማርነው ፍቅር፣ ትጋትና መከባበር ከእኛ ጋር ይኖራል። ታሪካችን ማንነታችን ነው።",
+      "subtitle_en": "Years pass and generations change. The love, diligence and respect we learned from my father live on. Our story is our identity.",
+      "shot_reason": "Conclude with the idea that the father's values continue across generations and include the required AI disclosure.",
+      "reference_images": [
+        "references/father_character_sheet.png",
+        "references/style_reference.png"
+      ],
+      "seed": 42010,
+      "status": "story_based_draft_pending_native_speaker_review_and_asset_generation"
+    }
+  ],
+  "music": {
+    "type": "original_instrumental_score",
+    "mood": "Warm, reflective, dignified, hopeful; supportive of a family heritage documentary and never overpowering the Amharic narration.",
+    "instruments": "Proposed gentle Ethiopian traditional-instrument-inspired plucked strings and bowed textures with soft hand percussion and warm ambient strings; verify cultural fit with a knowledgeable listener.",
+    "tempo_bpm": 78,
+    "duration_seconds": 68,
+    "cues": [
+      {
+        "start_seconds": 0,
+        "end_seconds": 68,
+        "purpose": "Begin gently, build subtly during the father and community passages, and resolve warmly under the closing line; duck under narration."
+      }
+    ]
+  }
+}

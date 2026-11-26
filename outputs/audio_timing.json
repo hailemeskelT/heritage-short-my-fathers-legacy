@@ -1,0 +1,87 @@
+{
+  "voice": "am-ET-MekdesNeural",
+  "pause_between_clips_ms": 300,
+  "narration_duration_ms": 54996,
+  "shots": [
+    {
+      "id": "shot_01",
+      "start_ms": 0,
+      "end_ms": 3336,
+      "clip_duration_ms": 3336,
+      "scene_duration_ms": 3636,
+      "subtitle_en": "Some stories are never written in books."
+    },
+    {
+      "id": "shot_02",
+      "start_ms": 3636,
+      "end_ms": 8052,
+      "clip_duration_ms": 4416,
+      "scene_duration_ms": 4716,
+      "subtitle_en": "They live in our homes and pass from one generation to the next."
+    },
+    {
+      "id": "shot_03",
+      "start_ms": 8352,
+      "end_ms": 13536,
+      "clip_duration_ms": 5184,
+      "scene_duration_ms": 5484,
+      "subtitle_en": "Our family story is rooted in the historic, beautiful land of North Shewa."
+    },
+    {
+      "id": "shot_04",
+      "start_ms": 13836,
+      "end_ms": 17364,
+      "clip_duration_ms": 3528,
+      "scene_duration_ms": 3828,
+      "subtitle_en": "Today, I share my father's story."
+    },
+    {
+      "id": "shot_05",
+      "start_ms": 17664,
+      "end_ms": 23376,
+      "clip_duration_ms": 5712,
+      "scene_duration_ms": 6012,
+      "subtitle_en": "Through farming, he demonstrated hard work and became a role model to people around him."
+    },
+    {
+      "id": "shot_06",
+      "start_ms": 23676,
+      "end_ms": 28476,
+      "clip_duration_ms": 4800,
+      "scene_duration_ms": 5100,
+      "subtitle_en": "He worked day and night to raise our family with love and good values."
+    },
+    {
+      "id": "shot_07",
+      "start_ms": 28776,
+      "end_ms": 33672,
+      "clip_duration_ms": 4896,
+      "scene_duration_ms": 5196,
+      "subtitle_en": "In both farming and community life, he was an example to those around him."
+    },
+    {
+      "id": "shot_08",
+      "start_ms": 33972,
+      "end_ms": 39948,
+      "clip_duration_ms": 5976,
+      "scene_duration_ms": 6276,
+      "subtitle_en": "Through customary mediation and reconciliation, he served his community."
+    },
+    {
+      "id": "shot_09",
+      "start_ms": 40248,
+      "end_ms": 46464,
+      "clip_duration_ms": 6216,
+      "scene_duration_ms": 6516,
+      "subtitle_en": "Those times were not easy. He taught us to face hardship with patience and perseverance."
+    },
+    {
+      "id": "shot_10",
+      "start_ms": 46764,
+      "end_ms": 54996,
+      "clip_duration_ms": 8232,
+      "scene_duration_ms": 8232,
+      "subtitle_en": "Years pass and generations change. The love, diligence and respect we learned from my father live on. Our story is our identity."
+    }
+  ]
+}
